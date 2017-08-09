@@ -1,0 +1,19 @@
+.navbar{
+	background-color: #DD042A;
+}
+.navbar-brand{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.navbar-brand:hover{
+	color: #fff;
+}
+.baño{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
