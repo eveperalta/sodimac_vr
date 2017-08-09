@@ -1,10 +1,21 @@
+@font-face{
+	font-family: sodimac;
+	src: url('fonts/miso.eot');
+	src: url('fonts/miso.eot') format("embedded-opentype"),
+	url('fonts/miso.woff') format("woff"),
+	url('fonts/miso.ttf') format("ttf"),
+	url('fonts/miso.svg') format("svg");
+}
+
+
 .navbar{
 	background-color: #DD042A;
 }
 .navbar-brand{
 	color: #fff;
-	font-size: 20px;
+	font-size: 36px;
 	font-weight: bold;
+	font-family: "sodimac";
 }
 .navbar-brand:hover{
 	color: #fff;
@@ -13,7 +24,24 @@
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
+.cocina{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
 
+h3{
+	text-align: center;
+	font-size: 38px;
+	font-family: "sodimac";
+	font-weight: bold;
+}
+h4{
+	text-align: center;
+	font-size: 25px;
+	font-family: "sodimac";
+}
