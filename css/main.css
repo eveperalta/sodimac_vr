@@ -1,47 +1,60 @@
-@font-face{
-	font-family: sodimac;
-	src: url('fonts/miso.eot');
-	src: url('fonts/miso.eot') format("embedded-opentype"),
-	url('fonts/miso.woff') format("woff"),
-	url('fonts/miso.ttf') format("ttf"),
-	url('fonts/miso.svg') format("svg");
-}
-
-
 .navbar{
 	background-color: #DD042A;
 }
 .navbar-brand{
+	background-color: transparent;
 	color: #fff;
 	font-size: 36px;
+	font-family: "Roboto",sans-serif;
+	margin: 10px;
 	font-weight: bold;
-	font-family: "sodimac";
+	padding-left: 10px;
 }
-.navbar-brand:hover{
-	color: #fff;
-}
-.baño{
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-.cocina{
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	margin-top: 20px;
-}
+.logo{
+	width: 70px;
+	height: 60px;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
 
-h3{
+}
+.espacio{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.email{
+	margin-bottom: 20px;
+}
+.espacios:hover img{
+	transform:scale(1.3);
+	overflow: hidden;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+a:visited, a:hover, a:active, {
+    text-decoration: none;
+    background-color: #fff;
+    border: none;
+    color: #000;
+}
+h2{
 	text-align: center;
 	font-size: 38px;
-	font-family: "sodimac";
+	font-family:'Roboto', sans-serif;
 	font-weight: bold;
 }
-h4{
+h3{
 	text-align: center;
-	font-size: 25px;
-	font-family: "sodimac";
+	font-size: 30px;
+	margin-top: 20px;
+	font-family:'Roboto', sans-serif;
 }
