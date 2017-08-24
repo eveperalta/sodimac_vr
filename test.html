@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/image-picker.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
@@ -22,6 +23,56 @@
       </nav>
     </header>
     <section>
+    <div class="row">
+     <div class="boton">
+        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect boton" data-toggle="modal" data-target="#myModal">Enviar</button>
+        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect boton" data-toggle="modal" data-target="#myModal2">Imprimir</button>
+     </div>
+     <!-- Modal email -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Ingrese su email</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-horizontal">
+            <label for="email" class="control-label">Email  :</label>
+            <input type="email" class="form-horizontal input-md" id="email"></div>
+            <button type="submit" class="btn btn-outline-primary btn-rounded waves-effect boton2">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Por favor llene los campos antes de enviar a impresión.</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-horizontal">
+              <label for="email" class="control-label">Email  :</label>
+              <input type="email" class="form-horizontal input-md" id="email">
+                <label for="name" class="control-label">Nombre  :</label>
+                <input type="text" class="form-horizontal input-md" id="name">
+                  <label for="rut" class="control-label">Rut :</label>
+                  <input type="number" class="form-horizontal input-md" id="rut"></div>
+                  <button type="submit" class="btn btn-outline-primary btn-rounded waves-effect boton2">Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    
         <div class="row">
             <h2>¿Cuál es tu espacio favorito?</h2>
             <h3>Baños</h3>
@@ -65,5 +116,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/image-picker.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
   </body>
 </html>

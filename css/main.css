@@ -1,25 +1,17 @@
-html{
-	background: url('/img/sodimac-1.jpg')no-repeat center center fixed;
-	/*-webkit-background-size:cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;*/
-	min-height: 100%;
-	min-width: 100%;
-}
 
 .navbar{
-	background-color: #0072BE;
+	background-color: ;
 	height: 30px;
 }
 .navbar-brand{
 	background-color: transparent;
-	color: #fff;
+	color: #0072BE;
 	font-size: 32px;
 	font-family: "Roboto",sans-serif;
 	margin: 10px;
 	font-weight: bold;
 	padding: 10px;
+	padding-bottom: 10px;
 }
 .logo{
 	width: 60px;
@@ -27,7 +19,6 @@ html{
 	float: left;
 	padding: 10px;
 	margin-right: 10px;
-
 }
 li{
 	width: 300px;
@@ -36,7 +27,18 @@ li{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+#email{
 
+}
+.boton{
+	position: relative;
+	right: -350px;
+}
+
+.boton2{
+	position: relative;
+	right: -450px;
+}
 h2{
 	text-align: center;
 	font-size: 38px;
