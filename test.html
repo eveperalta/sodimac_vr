@@ -3,12 +3,12 @@
   <head>
     <meta charset=" UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sodimac VR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/image-picker.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/css/mdb.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
@@ -22,12 +22,17 @@
         </div>
       </nav>
     </header>
-    <section>
+    <div class="container">
+
     <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-6">
      <div class="boton">
         <button type="button" class="btn btn-outline-primary btn-rounded waves-effect boton" data-toggle="modal" data-target="#myModal">Enviar</button>
         <button type="button" class="btn btn-outline-primary btn-rounded waves-effect boton" data-toggle="modal" data-target="#myModal2">Imprimir</button>
      </div>
+
+   </div>
+ </div>
      <!-- Modal email -->
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">
@@ -78,44 +83,65 @@
             <h3>Baños</h3>
         </div>
         <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10" align="center">
-            <select name="banos" id="banos" class="image-picker show-html">
+        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-sm-10 col-md-10 col-lg-10" align="center">
+            <select name="banos" id="banos" class="image-picker show-html" multiple="multiple" data-limit="3">
+              <option value=""></option>
                 <option data-img-src="img/baño1.png" data-img-class="first" value="1">Baño 1</option>
                 <option data-img-src="img/baño2.png" value="2">Baño 2</option>
                 <option data-img-src="img/baño3.png"  value="3">Baño 3</option>
-                <option data-img-src="img/baño4.png"  value="4">Baño 4</option>
-                <option data-img-src="img/baño5.png" data-img-class="last" value="5">Baño 5</option>
-            </select> 
+            </select>
+        <div class="row">
+          <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+            <div  class="col-sm-10 col-md-10 col-lg-10" align="center">
+              <select  name="banos2" id="banos2" class="image-picker show-html" multiple="multiple" data-limit="2">
+                <option value=""></option>
+                <option data-img-src="img/baño4.png"  value="1">Baño 4</option>
+                <option data-img-src="img/baño5.png" data-img-class="" value="2" >Baño 5</option>
+              </select>
+            </div>
+          </div>
+        </div>     
         </div>
-           
-        </div>
+
         <div class="row">
             <h3>Cocinas</h3>
         </div>
         <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10" align="center">
-            <select name="cocina" id="cocina" class="image-picker show-html">
+        <div class="col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-sm-10 col-md-10 col-lg-10" align="center">
+            <select name="cocina" id="cocina" class="image-picker show-html" multiple="multiple" data-limit="3">
+              <option value=""></option>
                 <option data-img-src="img/cocina1.png" data-img-class="first" value="1">Cocina 1</option>
+
                 <option data-img-src="img/cocina2.png" value="2">Cocina 2</option>
                 <option data-img-src="img/cocina3.png"  value="3">Cocina 3</option>
-                <option data-img-src="img/cocina4.png"  value="4">Cocina 4</option>
-                <option data-img-src="img/cocina5.png" data-img-class="last" value="5">Cocina 5</option>
-            </select> 
+           </select>
+           <div class="row">
+             <div class="col-sm-1 col-md-1 col-lg-1"></div>
+
+             <div class="col-sm-10 col-md-10 col-lg-10" align="center">
+               <select name="cocina2" id="cocina2" class="image-picker show-html" multiple="multiple" data-limit="2">
+                 <option value=""></option>
+                 <option data-img-src="img/cocina4.png"  value="1">Cocina 4</option>
+                <option data-img-src="img/cocina5.png" data-img-class="last" value="2">Cocina 5</option>
+               </select>
+             </div>
+           </div>   
+        </div>      
         </div>
-           
-        </div>
-    </section>
 
 
+</div>
 
 
-
+    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/image-picker.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.2/js/mdb.min.js"></script>
+    
   </body>
 </html>

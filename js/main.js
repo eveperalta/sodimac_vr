@@ -1,1 +1,3 @@
-$("select").imagepicker()
+$("select").imagepicker();
+
+$("select").imagepicker();
